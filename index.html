@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>إلى روحي ونبض قلبي 🤍🌹 | سماء العشق الأبدي</title>
+
+  <!-- Google Fonts: Alexandria, Amiri & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* ==========================================================================
+       1. LUXURY LIQUID RUBY & CHAMPAGNE PALETTE
+       ========================================================================== */
+    :root {
+      --ruby-darkest: #070104;
+      --ruby-noir: #11020a;
+      --ruby-card: rgba(24, 4, 15, 0.72);
+      
+      --ruby-glow: #ff2a5f;
+      --rose-velvet: #d81159;
+      --deep-crimson: #8f0e38;
+      --champagne-gold: #fceade;
+      --champagne-glow: #f7c59f;
+      --pearl-white: #fff5f7;
+      --text-muted: #d4a5b3;
+      
+      --glass-border: rgba(255, 42, 95, 0.22);
+      --glass-border-hover: rgba(247, 197, 159, 0.5);
+      
+      --glow-subtle: 0 0 40px rgba(216, 17, 89, 0.35);
+      --glow-intense: 0 0 75px rgba(255, 42, 95, 0.6);
+      
+      --font-main: 'Alexandria', sans-serif;
+      --font-poetic: 'Amiri', serif;
+      --font-serif: 'Playfair Display', serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html, body {
+      background-color: var(--ruby-darkest);
+      color: var(--pearl-white);
+      font-family: var(--font-main);
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: var(--ruby-darkest); }
+    ::-webkit-scrollbar-thumb { background: var(--rose-velvet); border-radius: 10px; }
+
+    /* ==========================================================================
+       2. INTERACTIVE STARDUST & RUBY AURORA CANVAS
+       ========================================================================== */
+    #space-canvas, #trail-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    #trail-canvas {
+      z-index: 3;
+    }
+
+    .ruby-ambient-aurora {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at 50% 12%, rgba(216, 17, 89, 0.28) 0%, transparent 60%),
+                  radial-gradient(circle at 15% 65%, rgba(143, 14, 56, 0.25) 0%, transparent 50%),
+                  radial-gradient(circle at 85% 85%, rgba(255, 42, 95, 0.2) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 1;
+      animation: auroraPulse 10s ease-in-out infinite alternate;
+    }
+
+    @keyframes auroraPulse {
+      0% { transform: scale(1); opacity: 0.85; }
+      100% { transform: scale(1.08); opacity: 1; filter: hue-rotate(8deg); }
+    }
+
+    /* Floating Starlight Particles */
+    .starlight-container {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 2;
+    }
+
+    .star-ember {
+      position: absolute;
+      font-size: 16px;
+      opacity: 0.6;
+      animation: floatEmber linear infinite;
+      filter: drop-shadow(0 0 10px rgba(255, 42, 95, 0.6));
+    }
+
+    @keyframes floatEmber {
+      0% { transform: translateY(105vh) rotate(0deg) scale(0.6); opacity: 0; }
+      20% { opacity: 0.85; }
+      80% { opacity: 0.85; }
+      100% { transform: translateY(-10vh) rotate(50deg) scale(1.25); opacity: 0; }
+    }
+
+    /* ==========================================================================
+       3. INTRO CURTAIN LOADER
+       ========================================================================== */
+    #curtain-loader {
+      position: fixed;
+      inset: 0;
+      background-color: var(--ruby-darkest);
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 1.4s cubic-bezier(0.16, 1, 0.3, 1), visibility 1.4s;
+    }
+
+    .pulse-heart-orb {
+      width: 105px;
+      height: 105px;
+      border-radius: 50%;
+      background: radial-gradient(circle, var(--ruby-glow) 0%, var(--rose-velvet) 70%, transparent 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 45px;
+      margin-bottom: 30px;
+      box-shadow: var(--glow-intense);
+      animation: orbBeat 1.7s infinite ease-in-out;
+    }
+
+    @keyframes orbBeat {
+      0%, 100% { transform: scale(0.92); box-shadow: 0 0 30px rgba(255, 42, 95, 0.5); }
+      50% { transform: scale(1.18); box-shadow: 0 0 80px rgba(255, 42, 95, 0.9); }
+    }
+
+    .curtain-text {
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--pearl-white);
+      letter-spacing: 2px;
+      text-align: center;
+      animation: fadeInOut 2.5s ease-in-out infinite;
+    }
+
+    @keyframes fadeInOut {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+
+    /* ==========================================================================
+       4. STRUCTURAL COMPONENTS & GLASS
+       ========================================================================== */
+    .sanctuary-wrapper {
+      position: relative;
+      z-index: 5;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 110px 0;
+      position: relative;
+    }
+
+    .section-ribbon {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.85rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--champagne-gold);
+      background: rgba(252, 234, 222, 0.08);
+      padding: 8px 24px;
+      border-radius: 50px;
+      border: 1px solid rgba(252, 234, 222, 0.25);
+      margin-bottom: 22px;
+      box-shadow: 0 0 25px rgba(252, 234, 222, 0.15);
+    }
+
+    .section-title-glow {
+      font-size: clamp(2.4rem, 6vw, 4.2rem);
+      font-weight: 900;
+      text-align: center;
+      line-height: 1.3;
+      margin-bottom: 30px;
+      background: linear-gradient(135deg, #FFFFFF 15%, #FCEADE 45%, #FF2A5F 80%, #F7C59F 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 12px 32px rgba(216, 17, 89, 0.45));
+    }
+
+    .luxury-card {
+      background: var(--ruby-card);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      border: 1px solid var(--glass-border);
+      border-radius: 34px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.7);
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .luxury-card:hover {
+      border-color: var(--glass-border-hover);
+      box-shadow: var(--glow-subtle), 0 35px 85px rgba(0, 0, 0, 0.8);
+    }
+
+    .btn-sacred {
+      background: linear-gradient(135deg, rgba(255, 42, 95, 0.55) 0%, rgba(216, 17, 89, 0.35) 100%);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--ruby-glow);
+      color: var(--pearl-white);
+      padding: 19px 48px;
+      border-radius: 50px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 12px 35px rgba(216, 17, 89, 0.4);
+    }
+
+    .btn-sacred:hover {
+      transform: translateY(-4px) scale(1.04);
+      background: linear-gradient(135deg, rgba(255, 42, 95, 0.8) 0%, rgba(247, 197, 159, 0.45) 100%);
+      box-shadow: var(--glow-intense);
+    }
+
+    /* Live Heartbeat Line */
+    .heartbeat-live-box {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 0.95rem;
+      color: var(--champagne-gold);
+      margin-top: 28px;
+      background: rgba(17, 2, 10, 0.65);
+      padding: 10px 24px;
+      border-radius: 50px;
+      border: 1px solid var(--glass-border);
+    }
+
+    .pulse-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--ruby-glow);
+      box-shadow: 0 0 14px var(--ruby-glow);
+      animation: pulseDot 1.2s infinite;
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { transform: scale(0.8); opacity: 0.6; }
+      50% { transform: scale(1.4); opacity: 1; }
+    }
+
+    /* ==========================================================================
+       5. HERO SCENE
+       ========================================================================== */
+    .hero-box {
+      text-align: center;
+      max-width: 880px;
+    }
+
+    .hero-gif-halo {
+      width: 180px;
+      height: 180px;
+      margin: 0 auto 35px;
+      border-radius: 50%;
+      padding: 7px;
+      background: linear-gradient(135deg, var(--ruby-glow), transparent, var(--champagne-glow));
+      box-shadow: var(--glow-intense);
+      animation: haloRotate 10s linear infinite;
+    }
+
+    .hero-gif-halo .gif-inner {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .hero-gif-halo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @keyframes haloRotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .hero-subtext {
+      font-size: clamp(1.25rem, 3.8vw, 1.55rem);
+      line-height: 2.2;
+      color: var(--text-muted);
+      font-weight: 300;
+      margin-bottom: 42px;
+    }
+
+    .hero-subtext span {
+      display: block;
+      color: var(--pearl-white);
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    /* ==========================================================================
+       6. CHAPTER 1: MIDNIGHT WHISPERS (CONFESSIONS)
+       ========================================================================== */
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 45px;
+      align-items: center;
+      width: 100%;
+    }
+
+    @media (max-width: 860px) {
+      .intro-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+    }
+
+    .stagger-words {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .word-card {
+      padding: 22px 28px;
+      border-radius: 22px;
+      background: rgba(24, 4, 15, 0.6);
+      border: 1px solid var(--glass-border);
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--pearl-white);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      transition: all 0.4s ease;
+    }
+
+    .word-card:hover {
+      transform: translateX(-8px);
+      background: rgba(45, 8, 28, 0.8);
+      border-color: var(--ruby-glow);
+    }
+
+    /* ==========================================================================
+       7. CHAPTER 2: THE ETERNAL VELVET MANUSCRIPT (LETTER)
+       ========================================================================== */
+    .manuscript-wrapper {
+      width: 100%;
+      max-width: 920px;
+      position: relative;
+    }
+
+    .manuscript-card {
+      padding: clamp(35px, 6vw, 70px);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255, 42, 95, 0.32);
+    }
+
+    .manuscript-card::before {
+      content: '';
+      position: absolute;
+      top: -120px;
+      right: -120px;
+      width: 280px;
+      height: 280px;
+      background: radial-gradient(circle, rgba(255, 42, 95, 0.28), transparent 70%);
+      pointer-events: none;
+    }
+
+    .manuscript-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--glass-border);
+      padding-bottom: 25px;
+      margin-bottom: 35px;
+    }
+
+    .manuscript-thumb {
+      width: 100px;
+      height: 100px;
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid var(--glass-border);
+      box-shadow: var(--glow-subtle);
+    }
+
+    .manuscript-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .manuscript-content {
+      font-family: var(--font-poetic);
+      font-size: clamp(1.35rem, 3.4vw, 1.7rem);
+      line-height: 2.35;
+      color: var(--pearl-white);
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    .manuscript-content p {
+      margin-bottom: 24px;
+    }
+
+    .manuscript-footer {
+      margin-top: 40px;
+      padding-top: 25px;
+      border-top: 1px solid var(--glass-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--champagne-gold);
+      font-size: 1.25rem;
+    }
+
+    /* ==========================================================================
+       8. CHAPTER 3: SACRED LOVE CRYSTALS (10 REVELATIONS)
+       ========================================================================== */
+    .revelations-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .revelation-card {
+      background: var(--ruby-card);
+      border: 1px solid var(--glass-border);
+      border-radius: 28px;
+      padding: 35px 25px;
+      min-height: 230px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .revelation-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--ruby-glow);
+      background: rgba(45, 8, 28, 0.85);
+      box-shadow: var(--glow-subtle);
+    }
+
+    .revelation-icon-glow {
+      font-size: 2.4rem;
+      margin-bottom: 12px;
+      filter: drop-shadow(0 0 12px var(--ruby-glow));
+    }
+
+    .revelation-text {
+      font-size: 1.15rem;
+      line-height: 1.85;
+      color: var(--pearl-white);
+      display: none;
+      animation: revealSmooth 0.5s ease forwards;
+    }
+
+    .revelation-hint {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .revelation-card.opened .revelation-icon-glow,
+    .revelation-card.opened .revelation-hint {
+      display: none;
+    }
+
+    .revelation-card.opened .revelation-text {
+      display: block;
+    }
+
+    @keyframes revealSmooth {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* Interstitial Banner */
+    .sacred-banner-break {
+      width: 100%;
+      margin: 45px 0;
+      border-radius: 32px;
+      border: 1px solid var(--glass-border);
+      background: linear-gradient(135deg, rgba(45, 8, 28, 0.75) 0%, rgba(17, 2, 10, 0.9) 100%);
+      padding: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 35px;
+      flex-wrap: wrap;
+      box-shadow: var(--glow-subtle);
+    }
+
+    .sacred-banner-break img {
+      width: 135px;
+      height: 135px;
+      border-radius: 24px;
+      object-fit: cover;
+      border: 1px solid var(--ruby-glow);
+    }
+
+    /* ==========================================================================
+       9. CHAPTER 4: PLAYFUL SWEET HAVEN
+       ========================================================================== */
+    .cute-haven-stage {
+      width: 100%;
+      max-width: 960px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .haven-statement-box {
+      background: var(--ruby-card);
+      border: 1px solid var(--ruby-glow);
+      border-radius: 26px;
+      padding: 22px 35px;
+      font-size: 1.35rem;
+      color: var(--champagne-gold);
+      text-align: center;
+      max-width: 650px;
+      width: 90%;
+      margin-bottom: 35px;
+      box-shadow: var(--glow-subtle);
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .cats-gems-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+      gap: 22px;
+      width: 100%;
+      max-width: 780px;
+    }
+
+    .cat-gem-button {
+      background: var(--ruby-card);
+      border: 1px solid var(--glass-border);
+      border-radius: 26px;
+      padding: 25px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      transition: all 0.4s ease;
+    }
+
+    .cat-gem-button .cat-gem-icon {
+      font-size: 44px;
+      transition: transform 0.3s ease;
+    }
+
+    .cat-gem-button:hover {
+      transform: translateY(-8px);
+      border-color: var(--ruby-glow);
+      box-shadow: var(--glow-subtle);
+    }
+
+    .cat-gem-button:hover .cat-gem-icon {
+      transform: scale(1.25) rotate(8deg);
+    }
+
+    /* ==========================================================================
+       10. CHAPTER 5: SANCTUARY OF WARMTH & EMBRACE
+       ========================================================================== */
+    .embrace-chamber {
+      max-width: 760px;
+      width: 100%;
+      text-align: center;
+      padding: 65px 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .embrace-body-text {
+      font-size: 1.4rem;
+      line-height: 2.2;
+      color: var(--pearl-white);
+      font-weight: 300;
+    }
+
+    .embrace-reveal-toast {
+      min-height: 55px;
+      font-size: 1.5rem;
+      color: var(--champagne-gold);
+      font-weight: 600;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: all 0.5s ease;
+    }
+
+    .embrace-reveal-toast.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==========================================================================
+       11. FINALE EPILOGUE (ULTRA-ROMANTIC CINEMATIC)
+       ========================================================================== */
+    .finale-chamber {
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 20px;
+    }
+
+    .finale-inner-box {
+      max-width: 820px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 60px 32px;
+    }
+
+    .finale-glow-gif {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      border: 1px solid var(--ruby-glow);
+      box-shadow: var(--glow-intense);
+      overflow: hidden;
+    }
+
+    .finale-glow-gif img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .finale-speech {
+      font-size: clamp(1.3rem, 3.8vw, 1.85rem);
+      line-height: 2.3;
+      color: var(--pearl-white);
+      font-weight: 300;
+    }
+
+    .finale-vow-signature {
+      font-size: clamp(2.6rem, 6.5vw, 4.4rem);
+      font-weight: 800;
+      background: linear-gradient(135deg, #FFFFFF, #FCEADE, #FF2A5F, #F7C59F);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 15px 0;
+      filter: drop-shadow(0 10px 25px rgba(255, 42, 95, 0.45));
+    }
+
+    .finale-sacred-quote {
+      font-size: 1.3rem;
+      color: var(--champagne-gold);
+      font-style: italic;
+      font-family: var(--font-poetic);
+    }
+
+    /* ==========================================================================
+       12. SECRET TALISMAN & MODAL
+       ========================================================================== */
+    .secret-talisman {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      z-index: 99;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: rgba(24, 4, 15, 0.8);
+      border: 1px dashed var(--ruby-glow);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 22px;
+      opacity: 0.75;
+      transition: all 0.4s ease;
+      box-shadow: var(--glow-subtle);
+    }
+
+    .secret-talisman:hover {
+      opacity: 1;
+      transform: scale(1.18) rotate(20deg);
+      box-shadow: var(--glow-intense);
+    }
+
+    .sacred-modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(7, 1, 4, 0.94);
+      backdrop-filter: blur(18px);
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.4s ease;
+    }
+
+    .sacred-modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .sacred-modal-card {
+      max-width: 500px;
+      width: 100%;
+      padding: 45px 35px;
+      text-align: center;
+      position: relative;
+      transform: scale(0.9);
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .sacred-modal-overlay.active .sacred-modal-card {
+      transform: scale(1);
+    }
+
+    .modal-close-button {
+      position: absolute;
+      top: 18px;
+      left: 18px;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 24px;
+    }
+
+    #confetti-canvas {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 999999;
+    }
+
+    @media (max-width: 768px) {
+      section { padding: 80px 0; }
+      .manuscript-card { padding: 30px 20px; }
+      .sacred-banner-break { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ENTRANCE CURTAIN LOADER -->
+  <div id="curtain-loader">
+    <div class="pulse-heart-orb">🌹</div>
+    <div class="curtain-text">إلى أرق وأجمل ما رأت عيني في هذا الكون… 🤍✨</div>
+  </div>
+
+  <!-- DYNAMIC BACKGROUND CANVASES -->
+  <canvas id="space-canvas"></canvas>
+  <canvas id="trail-canvas"></canvas>
+  <canvas id="confetti-canvas"></canvas>
+  <div class="ruby-ambient-aurora"></div>
+  <div class="starlight-container" id="starlight-box"></div>
+
+  <!-- SECRET TALISMAN (CORNER SURPRISE) -->
+  <div class="secret-talisman" id="secret-talisman-btn" title="سر خاص بقلبي ✨">
+    🌹
+  </div>
+
+  <!-- MAIN SANCTUARY -->
+  <main class="sanctuary-wrapper">
+
+    <!-- ======================================================================
+         PROLOGUE: THE HERO SCENE
+         ====================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-box">
+        <div class="hero-gif-halo">
+          <div class="gif-inner">
+            <img src="https://i.imgur.com/idOJjHA.gif" alt="Sacred Hero GIF" />
+          </div>
+        </div>
+
+        <div class="section-ribbon">
+          <i data-lucide="sparkles" style="width: 15px; height: 15px;"></i> سماء العشق الأبدي
+        </div>
+
+        <h1 class="section-title-glow">إلى أرق وأغلى ما ملك قلبي 🤍🌹</h1>
+
+        <div class="hero-subtext">
+          مكان خُلق بكل تفاصيله من أجلكِ وحدكِ، بعيداً عن ضجيج العالم…
+          <span>لتتذكري دائماً أنكِ أطهر صدفة وأجمل نعمة أضاءت حياتي ✨</span>
+        </div>
+
+        <a href="#section-whispers" class="btn-sacred">
+          <span>افتحي قلبكِ وادخلي 🤍</span>
+          <i data-lucide="arrow-down" style="width: 20px; height: 20px;"></i>
+        </a>
+
+        <div class="heartbeat-live-box">
+          <div class="pulse-dot"></div>
+          <span>نبضات قلبي تنبض بأمانكِ وحبكِ دائماً</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CHAPTER 1: MIDNIGHT WHISPERS (CONFESSIONS)
+         ====================================================================== -->
+    <section id="section-whispers">
+      <div class="intro-grid">
+        <div>
+          <div class="section-ribbon">
+            <i data-lucide="heart" style="width: 15px; height: 15px;"></i> همسات دافئة
+          </div>
+          <h2 class="section-title-glow" style="text-align: right;">اعترافات من نص قلبي 🤍</h2>
+          
+          <div class="stagger-words">
+            <div class="word-card">
+              <span>🌟</span> لما تضيق الدنيا فيكِ، تذكري إنكِ دايمًا بقلبي وبأماني.
+            </div>
+            <div class="word-card">
+              <span>🌸</span> ملامحكِ ولطافتكِ بتزرع بقلبي ورد وراحة بال ما الها آخر.
+            </div>
+            <div class="word-card">
+              <span>✨</span> ضحكتكِ العفوية بتكفيني عن كل تعب وصخب بالكون.
+            </div>
+            <div class="word-card">
+              <span>🤍</span> وإنتِ أغلى ما أملك بكل لحظة وثانية بتمر بعمري.
+            </div>
+          </div>
+        </div>
+
+        <div class="luxury-card" style="padding: 12px; height: 380px; border-radius: 28px; overflow: hidden;">
+          <img src="https://i.imgur.com/EMJP8w3.gif" alt="Intro GIF" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CHAPTER 2: THE ETERNAL MANUSCRIPT (LETTER)
+         ====================================================================== -->
+    <section id="section-manuscript">
+      <div class="manuscript-wrapper">
+        <div class="luxury-card manuscript-card">
+          <div class="manuscript-header">
+            <div>
+              <div class="section-ribbon" style="margin-bottom: 6px;">مخطوطة العشق</div>
+              <h3 style="color: var(--champagne-gold); font-size: 1.55rem;">يا كل النقاء والسلام 🌷</h3>
+            </div>
+            <div class="manuscript-thumb">
+              <img src="https://i.imgur.com/ZECruA9.gif" alt="Comfort GIF" />
+            </div>
+          </div>
+
+          <div class="manuscript-content">
+            <p>
+              بدي أحكيلك شغلة من أعماق روحي.. أحياناً بكون اليوم طويل وتفاصيل الحياة بتثقل على القلب، بس بمجرد ما يخطر طيفكِ ببالي، كل التعب بصير خفيف وبتحول لراحة غريبة وأمان وسكينة.
+            </p>
+            <p>
+              مش لازم تكوني قوية طول الوقت، ولا لازم تتحملي كل ضغوطات الدنيا لحالكِ.. من حقكِ تاخدي نفس عميق، وترتاحي، وتدللي حالكِ، لأنكِ إنسانة نقية ورقيقة وبتستاهلي كل ورود الأرض ودفئها.
+            </p>
+            <p>
+              أنا بشوف فيكِ جمال ما بتوصف؛ جمال بروحكِ، بطيبتكِ، وبالطريقة العفوية اللي بتخلي كل لحظة بقربكِ حياة ثانية أحلى وأهدى بمليون مرة.
+            </p>
+            <p>
+              ديري بالك على قلبكِ وعيونكِ الحلوين، وتذكري دايمًا إن في شخص بدعيلكِ بالخير بكل ثانية، وشايفكِ أجمل نعمة أضاءت حياته كلها.
+            </p>
+            <p>
+              بحبكِ بكل تفاصيلكِ، وخليكي دايمًا مرتاحة ومبسوطة، لأن ضحكتكِ هي النور الحقيقي لقلبي 🤍✨
+            </p>
+          </div>
+
+          <div class="manuscript-footer">
+            <span>دائمًا معكِ وبقلبي 🤍</span>
+            <span>🌹 🤍 🫂 ✨</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CHAPTER 3: SACRED LOVE CRYSTALS (10 REVELATIONS)
+         ====================================================================== -->
+    <section id="section-revelations">
+      <div class="section-ribbon">
+        <i data-lucide="gem" style="width: 15px; height: 15px;"></i> أسرار الروح
+      </div>
+      <h2 class="section-title-glow">تفاصيل بتخليني أعشقكِ 🤍</h2>
+      <p style="color: var(--text-muted); margin-bottom: 20px; text-align: center;">المسي أي بلورة لتكشفي سراً مخبأً لكِ ✨</p>
+
+      <div class="revelations-grid" id="revelations-container">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <!-- Interstitial Sacred Banner -->
+      <div class="sacred-banner-break">
+        <img src="https://i.imgur.com/mb3WS5A.gif" alt="Soul Accent" />
+        <div style="max-width: 480px; text-align: right;">
+          <h4 style="color: var(--champagne-gold); font-size: 1.35rem; margin-bottom: 8px;">كل تفصيلة فيكِ هي معجزة لقلبي ✨</h4>
+          <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.8;">وجودكِ بصنع الفارق بكل يوم، وبخلي أبسط اللحظات عمراً كاملاً من الفرح والراحة.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CHAPTER 4: PLAYFUL SWEET HAVEN
+         ====================================================================== -->
+    <section id="section-haven">
+      <div class="section-ribbon">
+        <i data-lucide="smile" style="width: 15px; height: 15px;"></i> واحة اللطافة
+      </div>
+      <h2 class="section-title-glow">ركن الدلع والروقان 🐈🌹</h2>
+
+      <div class="cute-haven-stage">
+        <div class="haven-statement-box" id="haven-bubble">
+          المسي أي قطة وشوفي شو رح تحكيلك اللطافة 🐾
+        </div>
+
+        <div style="width: 155px; height: 155px; margin: 0 auto 25px; border-radius: 50%; overflow: hidden; border: 1px solid var(--ruby-glow); box-shadow: var(--glow-subtle);">
+          <img src="https://i.imgur.com/QRkwwa1.gif" alt="Sweet GIF" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+
+        <div class="cats-gems-row">
+          <div class="cat-gem-button" onclick="updateHaven('مياووو… وصلت طاقة حنان ودلال خالص لقلبكِ الرقيق! 🌸')">
+            <div class="cat-gem-icon">🐱</div>
+            <span style="font-size: 0.9rem; color: var(--text-muted);">قطة الأمان</span>
+          </div>
+
+          <div class="cat-gem-button" onclick="updateHaven('القطة بتبصم بالعشرة: ضحكتكِ بتسوى الدنيا وما فيها! 🐾')">
+            <div class="cat-gem-icon">🐈</div>
+            <span style="font-size: 0.9rem; color: var(--text-muted);">قطة البهجة</span>
+          </div>
+
+          <div class="cat-gem-button" onclick="updateHaven('ممنوع الزعل في هذا المكان نهائياً.. هون بس دلالكِ 🤍')">
+            <div class="cat-gem-icon">😻</div>
+            <span style="font-size: 0.9rem; color: var(--text-muted);">قطة المحبة</span>
+          </div>
+
+          <div class="cat-gem-button" onclick="updateHaven('حارس الهدوء يقول: ريحي راسكِ أنتِ محبوبة ومصونة دائماً 😾🤍')">
+            <div class="cat-gem-icon">😼</div>
+            <span style="font-size: 0.9rem; color: var(--text-muted);">حارس الروقان</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CHAPTER 5: SANCTUARY OF WARMTH & EMBRACE
+         ====================================================================== -->
+    <section id="section-embrace">
+      <div class="section-ribbon">
+        <i data-lucide="moon" style="width: 15px; height: 15px;"></i> ركن الطمأنينة
+      </div>
+      <h2 class="section-title-glow">إذا حسيتي حالكِ تعبانة يوماً…</h2>
+
+      <div class="luxury-card embrace-chamber">
+        <div style="width: 135px; height: 135px; border-radius: 26px; overflow: hidden; border: 1px solid var(--ruby-glow); box-shadow: var(--glow-subtle);">
+          <img src="https://i.imgur.com/XNkvntX.gif" alt="Embrace GIF" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+
+        <div class="embrace-body-text">
+          تعالي إلى هنا، أغمضي عيونكِ وريّحي قلبكِ الرقيق.<br/>
+          مش لازم تشيلي هموم الدنيا كلها لحالكِ.<br/>
+          كل إشي رح يطيب ويهون، وإنتِ قوية ونقية وغالية.<br/>
+          تذكري دايمًا إنكِ محبوبة ومحفوظة بأعماق روحي 🤍
+        </div>
+
+        <button class="btn-sacred" onclick="triggerEmbrace()">
+          <span>أرسلي عناقاً دافئاً لقلبكِ 🫂🤍</span>
+        </button>
+
+        <div class="embrace-reveal-toast" id="embrace-toast">
+          <span>وصل أدفى وأحن عناق يحفظ روحكِ وقلبكِ 🤍🫂✨</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         FINALE EPILOGUE: THE GRAND CINEMATIC FINALE
+         ====================================================================== -->
+    <section class="finale-chamber" id="section-finale">
+      <div class="luxury-card finale-inner-box">
+        <div class="finale-glow-gif">
+          <img src="https://i.imgur.com/Lf4XCfP.gif" alt="Finale Visual" />
+        </div>
+
+        <div class="section-ribbon">
+          <i data-lucide="sparkles" style="width: 15px; height: 15px;"></i> الخاتمة الأبدية
+        </div>
+
+        <div class="finale-speech">
+          تنتهي صفحات الموقع، بس حبي وعهدي إلكِ ماله نهاية أبدًا.<br/>
+          <span style="color: var(--champagne-gold);">ديري بالك على قلبكِ وعيونكِ، وضلكِ دايمًا النور اللي بضوّي عتمة هالدنيا…</span><br/>
+          لأنكِ بتستاهلي كل السعادة وراحة البال!
+        </div>
+
+        <div class="finale-vow-signature">
+          بحبكِ من كل قلبي 🤍🌹
+        </div>
+
+        <div class="finale-sacred-quote">
+          “وجودكِ في حياتي هو النعمة الأعظم اللي بحمد ربي عليها في كل لحظة 🤍✨”
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SACRED MODAL POPUP -->
+  <div class="sacred-modal-overlay" id="sacred-modal">
+    <div class="luxury-card sacred-modal-card">
+      <button class="modal-close-button" onclick="closeSacredModal()">✕</button>
+      <div style="font-size: 50px; margin-bottom: 15px;">🌹✨🤍</div>
+      <h3 style="font-size: 1.7rem; color: var(--champagne-gold); margin-bottom: 15px;" id="modal-heading">السر المكنون 🤍</h3>
+      <p style="font-size: 1.25rem; line-height: 2.1; color: var(--pearl-white);" id="modal-text">
+        هذا المكان انعمل بكل ذرة حب ليرسم الابتسامة على وجهكِ الحلو…<br/>
+        تذكري دائماً: <br/>
+        <strong style="color: var(--ruby-glow);">أنتِ أغلى، وأحن، وأجمل ما حظيت به في هذه الدنيا 🤍✨</strong>
+      </p>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT ENGINE & INTERACTIVITY -->
+  <script>
+    /* 10 DEEP ROMANTIC REVELATIONS (NO NAMES) */
+    const REVELATIONS = [
+      { icon: "✨", text: "بحب نبرة صوتكِ لما تحكي بتفاصيل يومكِ ببراءة، وكأنكِ طفلة بتملأ الدنيا فرح وسكينة." },
+      { icon: "🤍", text: "بحب هدوء عيونكِ، ففيهم بلاقي راحتي وبنسى كل تعب كان مضايقني قبل ما أشوفكِ." },
+      { icon: "🌸", text: "بحب ضحكتكِ العفوية اللي بتطلع من قلبكِ، لأنها بلحظة وحدة بتقلب يومي لربيع وراحة." },
+      { icon: "🌹", text: "بحب طهارة قلبكِ وحنيتكِ اللي بتخلي كل إشي صعب يصير بسيط ومطمئن." },
+      { icon: "🌟", text: "بحب كيف بتقدري بكلمة وحدة صغيرة ورقيقة تعدلي مزاجي وترتبي نبضات قلبي." },
+      { icon: "💎", text: "بحب عفويتكِ وإنكِ مش نسخة من حدا.. إنتِ إنتِ بنقائكِ اللي ما في مثله بالدنيا كلها." },
+      { icon: "🕊️", text: "بحب اهتمامكِ بالتفاصيل البسيطة، لأن هاد بخليني أحس قديش أنا محظوظ وممتن لوجودكِ." },
+      { icon: "🌙", text: "بحب وجودكِ بحياتي، لأنكِ صرتِ الملاذ الآمن والوطن اللي برتاح بس أتذكره." },
+      { icon: "💫", text: "بحبكِ لما تكوني قوية، وبحبكِ لما تتعبي، لأنكِ بكل حالاتكِ الأجمل والأغلى بعيوني." },
+      { icon: "🌹", text: "وأعظم ما بحبه؟ إنكِ إنتِ وحدكِ.. وما بدي أي إشي ثاني من هالعالم غيركِ 🤍✨." }
+    ];
+
+    window.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      renderRevelations();
+      initSpaceCanvas();
+      initTrailCanvas();
+      initStarlight();
+
+      // Entrance Screen Sequence
+      const loader = document.getElementById('curtain-loader');
+      setTimeout(() => {
+        loader.style.opacity = '0';
+        setTimeout(() => { loader.style.visibility = 'hidden'; }, 1400);
+      }, 2300);
+    });
+
+    /* RENDER REVELATIONS */
+    function renderRevelations() {
+      const container = document.getElementById('revelations-container');
+      container.innerHTML = '';
+
+      REVELATIONS.forEach((item) => {
+        const card = document.createElement('div');
+        card.className = 'revelation-card';
+        card.setAttribute('onclick', 'this.classList.toggle("opened")');
+
+        card.innerHTML = `
+          <div class="revelation-icon-glow">${item.icon}</div>
+          <div class="revelation-hint">
+            <i data-lucide="sparkles" style="width:15px; height:15px;"></i> المسي لتكشفي السر
+          </div>
+          <p class="revelation-text">${item.text}</p>
+        `;
+        container.appendChild(card);
+      });
+      lucide.createIcons();
+    }
+
+    /* SECRET MODAL TRIGGER */
+    const secretBtn = document.getElementById('secret-talisman-btn');
+    const sacredModal = document.getElementById('sacred-modal');
+    secretBtn.addEventListener('click', () => {
+      document.getElementById('modal-heading').innerText = "السر المكنون 🤍";
+      document.getElementById('modal-text').innerHTML = "هذا المكان انعمل بكل ذرة حب ليرسم الابتسامة على وجهكِ الحلو…<br>تذكري دائماً: <br><strong style='color: var(--ruby-glow);'>أنتِ أغلى، وأحن، وأجمل ما حظيت به في هذه الدنيا 🤍✨</strong>";
+      sacredModal.classList.add('active');
+      triggerConfetti();
+    });
+
+    function closeSacredModal() {
+      sacredModal.classList.remove('active');
+    }
+
+    /* HAVEN STATEMENT */
+    function updateHaven(msg) {
+      const el = document.getElementById('haven-bubble');
+      el.style.opacity = '0';
+      setTimeout(() => {
+        el.innerText = msg;
+        el.style.opacity = '1';
+      }, 200);
+    }
+
+    /* EMBRACE TOAST */
+    function triggerEmbrace() {
+      document.getElementById('embrace-toast').classList.add('active');
+      triggerConfetti();
+    }
+
+    /* BACKGROUND CANVAS (STARS & DYNAMIC PARTICLES) */
+    function initSpaceCanvas() {
+      const canvas = document.getElementById('space-canvas');
+      const ctx = canvas.getContext('2d');
+      let stars = [];
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      window.addEventListener('resize', resize);
+      resize();
+
+      for (let i = 0; i < 95; i++) {
+        stars.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          r: Math.random() * 1.5 + 0.4,
+          alpha: Math.random(),
+          speed: Math.random() * 0.015 + 0.006
+        });
+      }
+
+      function render() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        stars.forEach(s => {
+          s.alpha += s.speed;
+          const a = Math.abs(Math.sin(s.alpha));
+          ctx.fillStyle = `rgba(255, 42, 95, ${a * 0.75})`;
+          ctx.beginPath();
+          ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+          ctx.fill();
+        });
+        requestAnimationFrame(render);
+      }
+      render();
+    }
+
+    /* INTERACTIVE TOUCH/MOUSE STARDUST TRAIL */
+    function initTrailCanvas() {
+      const canvas = document.getElementById('trail-canvas');
+      const ctx = canvas.getContext('2d');
+      let particles = [];
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      window.addEventListener('resize', resize);
+      resize();
+
+      function addParticle(x, y) {
+        for (let i = 0; i < 2; i++) {
+          particles.push({
+            x: x + (Math.random() - 0.5) * 12,
+            y: y + (Math.random() - 0.5) * 12,
+            size: Math.random() * 4 + 2,
+            alpha: 1,
+            vx: (Math.random() - 0.5) * 2,
+            vy: (Math.random() - 0.5) * 2 - 0.5,
+            color: Math.random() > 0.5 ? '#ff2a5f' : '#fceade'
+          });
+        }
+      }
+
+      window.addEventListener('mousemove', (e) => addParticle(e.clientX, e.clientY));
+      window.addEventListener('touchmove', (e) => {
+        if (e.touches.length > 0) {
+          addParticle(e.touches[0].clientX, e.touches[0].clientY);
+        }
+      });
+
+      function renderTrail() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < particles.length; i++) {
+          let p = particles[i];
+          p.x += p.vx;
+          p.y += p.vy;
+          p.alpha -= 0.02;
+
+          if (p.alpha <= 0) {
+            particles.splice(i, 1);
+            i--;
+            continue;
+          }
+
+          ctx.save();
+          ctx.globalAlpha = p.alpha;
+          ctx.fillStyle = p.color;
+          ctx.shadowBlur = 10;
+          ctx.shadowColor = p.color;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.restore();
+        }
+        requestAnimationFrame(renderTrail);
+      }
+      renderTrail();
+    }
+
+    /* FLOATING STARLIGHT EMBERS */
+    function initStarlight() {
+      const box = document.getElementById('starlight-box');
+      const items = ['✨', '🌸', '🤍', '🌹', '💫', '💎'];
+      for (let i = 0; i < 22; i++) {
+        const el = document.createElement('div');
+        el.className = 'star-ember';
+        el.innerText = items[Math.floor(Math.random() * items.length)];
+        el.style.left = `${Math.random() * 100}vw`;
+        el.style.animationDuration = `${Math.random() * 8 + 9}s`;
+        el.style.animationDelay = `${Math.random() * 7}s`;
+        box.appendChild(el);
+      }
+    }
+
+    /* CONFETTI (ROSES & CELEBRATION) */
+    function triggerConfetti() {
+      const canvas = document.getElementById('confetti-canvas');
+      const ctx = canvas.getContext('2d');
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      const items = ['🌹', '🤍', '✨', '🌸', '💫'];
+      const particles = [];
+
+      for (let i = 0; i < 38; i++) {
+        particles.push({
+          x: canvas.width / 2,
+          y: canvas.height / 2,
+          char: items[Math.floor(Math.random() * items.length)],
+          vx: (Math.random() - 0.5) * 18,
+          vy: (Math.random() - 0.5) * 18 - 4,
+          size: Math.random() * 16 + 18,
+          alpha: 1
+        });
+      }
+
+      let frames = 0;
+      function loop() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        let alive = false;
+
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vy += 0.35;
+          p.alpha -= 0.015;
+
+          if (p.alpha > 0) {
+            alive = true;
+            ctx.save();
+            ctx.font = `${p.size}px sans-serif`;
+            ctx.globalAlpha = p.alpha;
+            ctx.fillText(p.char, p.x, p.y);
+            ctx.restore();
+          }
+        });
+
+        frames++;
+        if (alive && frames < 125) {
+          requestAnimationFrame(loop);
+        } else {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+      }
+      loop();
+    }
+  </script>
+</body>
+</html>
